@@ -1,0 +1,191 @@
+.hero_text {
+	font-family: "Bebas", sans-serif;
+	font-size: 24px;
+	background-color: #ff6633;
+	color: #fff;
+	padding: 20px 19px;
+}
+.hero_wrap:before,
+.hero_wrap:after {
+height: 71px;
+}
+.hero {
+	margin-bottom: 28px;
+}
+.main_text {
+	width: 70%;
+	margin-right: 50px;;
+}
+.main_text_text {
+	font-family: "Helvetica", sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #333333;
+	margin-bottom: 40px;
+}
+.main_part {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.aside {
+	width: 30%;
+}
+
+.about_jetro p {
+	font-size: 12px;
+	font-family: "Helvetica", sans-serif;
+	color: #333333;
+	margin-bottom: 40px;
+	line-height: 1.2em;
+}
+.categories {
+	margin-bottom: 40px;
+}
+.categories li {
+	list-style-type: none;
+	color: #333333;
+	font-family: "Helvetica", sans-serif;
+	font-size: 12px;
+}
+.categories ul {
+	padding-left: 0;
+}
+.blocks {
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 7px;
+}
+.photo_section img {
+	border: 1px solid #cccccc;
+	padding: 3px;
+	margin-right: 23px;
+}
+.photo_section {
+	float: left;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 28px;
+}
+.photo_section_text {
+	font-family: "Helvetica", sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.main_text_fletter {
+	font-family: "Helvetica", sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #333333;
+	margin-bottom: 40px;
+}
+.h3 {
+	font-size: 14px;
+	font-family: "Bebas", sans-serif;
+}
+.h3:after {
+	margin-left: 17px;
+}
+.main_text_fletter p:first-letter {
+font-family: "Helvetica", sans-serif;
+font-size: 36px;
+color: #ff6633;
+font-weight: bold;
+float: left;
+line-height: 1em;
+margin-bottom: -0.4em;
+margin-right: 0.09em;
+position: relative;
+}
+.main_text_pre img {
+	float: left;
+	margin-right: 20px;
+}
+.main_text_pre {
+	font-family: "Helvetica", sans-serif;
+	font-size: 12px;
+	margin-left: 52px;
+	color: #333333;
+	margin-bottom: 34px;
+}
+.block_text {
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 7px;
+	font-size: 12px;
+	line-height: 1.2;
+	font-family: "Helvetica", sans-serif;
+	color: #333333;
+	margin-bottom: 33px;
+}
+.block_text_left {
+	margin-right: 40px;
+}
+.text_blocks {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+	font-size: 12px;
+	line-height: 1.2;
+	font-family: "Helvetica", sans-serif;
+	color: #333333;
+	margin-bottom: 38px;
+}
+.buttons button{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.first_button {
+	 background-color: rgb(239, 254, 185);
+	border: 1px solid #99cc00;
+	color: #99cc00;
+	text-shadow: #cccc66 0.1em 0.1em 0.2em;
+	font-size: 14px;
+	font-family: "Helvetica", sans-serif;
+	font-style: italic;
+	padding-top: 26px;
+	padding-bottom: 24px;
+}
+.second_button {
+	background-color: #ffcccc;
+	border: 1px solid #ff6633;
+	color: #ff6633;
+	text-shadow: #ff9999 0.1em 0.1em 0.2em;
+	font-size: 14px;
+	font-family: "Helvetica", sans-serif;
+	font-style: italic;
+	padding-top: 26px;
+	padding-bottom: 24px;
+}
+.third_button {
+	background-color: rgb(255, 233, 173);
+	border: 1px solid #ffcc00;
+	color: #ffcc33;
+	text-shadow: #ffcc99 0.1em 0.1em 0.2em;
+	font-size: 14px;
+	font-family: "Helvetica", sans-serif;
+	font-style: italic;
+	padding-top: 26px;
+	padding-bottom: 24px;
+}
+.forth_button {
+	background-color: rgb(209, 228, 243);
+	border: 1px solid rgb(77, 143, 203);
+	color: #6699cc;
+	text-shadow: #99cccc 0.1em 0.1em 0.2em;
+	font-size: 14px;
+	font-family: "Helvetica", sans-serif;
+	font-style: italic;
+	padding-top: 26px;
+	padding-bottom: 24px;
+}
+
+
+
+

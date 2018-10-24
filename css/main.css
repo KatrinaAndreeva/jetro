@@ -1,0 +1,146 @@
+.button {
+	font-size: 12px;
+	text-transform: uppercase;
+	height: 31px;
+	padding: 0 15px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	font-family: "Bebas";
+	background-color: #ff6633;
+	line-height: 31px;
+}
+
+
+.slider {
+	position: relative;
+	margin-bottom: 24px;
+}
+	.slider_slide {
+	height: 0;
+	padding-bottom: 42%;
+}
+.slider_next, .slider_prev {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	width: 40px;
+	z-index: 100;
+	font-size: 54px;
+	margin-top: -27px;
+}
+.slider_next {
+	left: auto;
+	right: 20px;
+transform: rotate(-180deg);
+}
+
+.slide {
+	position: relative;
+}
+.slide_content {
+position: absolute;
+background-color: rgba(255, 102, 51,.8);
+left: 37px;
+bottom: 31px;
+max-width: 416px;
+padding: 17px;
+}
+.slide_title {
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Bebas", sans-serif;
+	margin-bottom: 18px;
+}
+.slide_content p {
+	font-size: 12px;
+	line-height: 1.4;
+	color: #fff;
+	font-family: "Helvetica", sans-serif;
+
+}
+.thumbs ul {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-gap: 17px;
+padding-left: 0;
+}
+.thumbs li {
+	list-style-type: none;
+}
+.thumbs a {
+	display: block;
+	height: 0;
+	text-decoration: none;
+	padding-bottom: 60%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.features {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 17px;
+margin-bottom: 44px;
+}
+.feature_title {
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+}
+.feature_icon {
+flex: 0;
+margin-right: 18px;
+}
+.feature_title h2 {
+	font-family: "Bebas", sans-serif;
+	font-size: 18px;
+	color: #ff6633;
+	flex: 1;
+	line-height: 1.53;
+	margin-bottom: 31px;
+}
+.feature_text {
+	font-size: 12px;
+	color: #414141;
+	line-height: 1.5;
+	font-family: "Helvetica", sans-serif;
+	padding-right: 20px;
+	margin-bottom: 17px;
+}
+.works {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 17px;
+	margin-bottom: 48px;
+}
+.work {
+	display: block;
+	text-decoration: none;
+
+}
+.work-image{
+	display: block;
+	min-width: 100%;
+}
+.work_bottom {
+	border: 1px solid #d8d8d8;
+	border-top: none;
+	padding: 10px 13px;
+}
+.work_title {
+	font-family: "Bebas", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #cccccc;
+	margin-bottom: 5px;
+}
+.work_date {
+	font-size: 11px;
+	color: #ff6633;
+	font-family: "Bebas", sans-serif;
+}
